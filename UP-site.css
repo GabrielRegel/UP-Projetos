@@ -5,6 +5,12 @@ body{
     text-align: center;/*vai centralizar a escrita do texto*/
     font-size: 110%;/*vai aumentar o tamanho da escrita do texto*/
 }
+
+h1{
+    text-align: center;/*vai centralizar o titulo do site*/
+    background-color: #5D733D;/*vai deixar a linha do titulo verde na tematica do civico militar*/
+}
+
 .civicomilitar {
     position: relative;/*vai fazer eu poder escolher a altura da imagem*/
 }
@@ -16,8 +22,9 @@ body{
     width: 500px; /* vai definir o tamanho da imagem */
     height: auto; /* o auto vai acompanhar o tamanho da imagem */
 }
-
-h1{
-    text-align: center;/*vai centralizar o titulo do site*/
-    background-color: #5D733D;/*vai deixar a linha do titulo verde na tematica do civico militar*/
+.pedagogia img{
+    left: -7%;
+    width: 500px;
+    height: auto;
+    display: flex;
 }
